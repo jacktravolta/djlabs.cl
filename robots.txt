@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://djlabs.cl/sitemap.xml
