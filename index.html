@@ -2,7 +2,7 @@
 <html lang="es-CL">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://api.djlabs.cl https://cdn.jsdelivr.net; worker-src 'self' blob: https://cdn.jsdelivr.net; frame-src https://www.youtube-nocookie.com https://player.vimeo.com; media-src 'self' data: blob: https:; manifest-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self' https://cdn.jsdelivr.net https://www.googletagmanager.com 'sha256-ncN3GiMXXUNS5+4lYiHaTmEmdKZkqNRyoFhUZpR8Bco='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: blob: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https://api.djlabs.cl https://cdn.jsdelivr.net https://*.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; worker-src 'self' blob: https://cdn.jsdelivr.net; frame-src https://www.youtube-nocookie.com https://player.vimeo.com https://www.googletagmanager.com; media-src 'self' data: blob: https:; manifest-src 'self'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Don Jack Labs — IA y automatización para tu negocio</title>
   <meta name="description" content="Chat web y WhatsApp con IA, cotizaciones automáticas, cumplimiento de la Ley de Datos, asistente laboral y más. Precio claro, sin letra chica.">
@@ -2340,8 +2340,16 @@ body {
   }
 }
 </style>
+  <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WZBZZHFV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>
 </head>
 <body>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZBZZHFV" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
   <div id="root"></div>
   
   <script src="js/inline/index-1.js" type="module"></script>
